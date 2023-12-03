@@ -11,7 +11,7 @@ export default function Login() {
         </div>
 
         <div className="formGroup">
-          <label className="formLabel">Choose password</label>
+          <label className="formLabel">Password</label>
           <input
             className="formField"
             type="password"
