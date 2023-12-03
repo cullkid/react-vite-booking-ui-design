@@ -18,8 +18,13 @@
 
 .headerList {
   display: flex;
+  justify-content: center;
   gap: 40px;
   margin-bottom: 50px;
+}
+.headerTitle {
+  display: flex;
+  justify-content: center;
 }
 
 .headerListItem {
@@ -36,6 +41,8 @@
 
 .headerDesc {
   margin: 20px 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .headerBtn {
@@ -69,7 +76,18 @@
 .headerSearchItem {
   display: flex;
   align-items: center;
+
   gap: 10px;
+}
+
+.border {
+  padding: 10px 25px;
+  border: rgb(59, 31, 31) solid 1px;
+  border-radius: 25px;
+}
+
+.btn {
+  border-radius: 25px;
 }
 
 .headerSearchInput {

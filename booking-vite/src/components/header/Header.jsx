@@ -89,7 +89,7 @@ const Header = ({ type }) => {
             <button className="headerBtn">Sign in / Register</button>
 
             <div className="headerSearch">
-              <div className="headerSearchItem">
+              <div className="headerSearchItem border">
                 <FontAwesomeIcon icon={faBed} className="headerIcon" />
                 <input
                   type="text"
@@ -99,7 +99,7 @@ const Header = ({ type }) => {
                 />
               </div>
 
-              <div className="headerSearchItem">
+              <div className="headerSearchItem border">
                 <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
                 <span
                   onClick={() => setOpenDate(!openDate)}
@@ -120,7 +120,7 @@ const Header = ({ type }) => {
                 )}
               </div>
 
-              <div className="headerSearchItem">
+              <div className="headerSearchItem border">
                 <FontAwesomeIcon icon={faPerson} className="headerIcon" />
                 <span
                   onClick={() => setOpenOptions(!openOptions)}
@@ -197,8 +197,8 @@ const Header = ({ type }) => {
                   </div>
                 )}
               </div>
-              <div className="headerSearchItem">
-                <button className="headerBtn" onClick={handleSearch}>
+              <div className="headerSearchItem btn">
+                <button className="headerBtn btn" onClick={handleSearch}>
                   Search
                 </button>
               </div>
