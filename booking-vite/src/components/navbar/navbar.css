@@ -14,8 +14,15 @@
   justify-content: space-between;
 }
 
+.link {
+  text-decoration: none;
+  color: white;
+}
+
 .logo {
-  font-weight: 500;
+  font-weight: 800;
+  font-size: 30px;
+  font-style: italic;
 }
 
 .navButton {
