@@ -21,6 +21,18 @@ const List = () => {
       <Header type="list" />
       <div className="listContainer">
         <div className="listWrapper">
+          <div className="listResult">
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+            <SearchedItemResult />
+          </div>
+
           <div className="listSearch">
             <h1 className="lsTitle">Search</h1>
 
@@ -91,18 +103,6 @@ const List = () => {
               </div>
             </div>
             <button>Search</button>
-          </div>
-
-          <div className="listResult">
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
-            <SearchedItemResult />
           </div>
         </div>
       </div>
